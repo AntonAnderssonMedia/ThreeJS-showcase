@@ -1,5 +1,4 @@
 import { defineConfig } from 'vite';
-
 export default defineConfig({
-  base: '/ThreeJS-showcase/', // must match the repo name EXACTLY
+  base: '/ThreeJS-showcase/',  // exact repo name
 });

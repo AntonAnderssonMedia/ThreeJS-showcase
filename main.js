@@ -1,6 +1,7 @@
 import './style.css'
-import * as THREE from 'node_modules/three/build/three.module.js';
-import { OrbitControls } from 'node_modules/three/examples/jsm/controls/OrbitControls.js';
+import * as THREE from 'three';
+
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 
 // Scene setup 
 
@@ -62,7 +63,7 @@ renderer.render(scene, camera); // Render after adding the sphere
 function animate() {
   requestAnimationFrame(animate);
     torusKnot.rotation.x += 0.02;
-    torusKnot.rotation.y += 0.0005;
+    torusKnot.rotation.y += 0.000;
     torusKnot.rotation.z += 0.02;  
 
     controls.update();
