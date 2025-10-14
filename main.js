@@ -17,18 +17,17 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 camera.position.setZ(30);
 
 // Create a torus knot
-const geometry = new THREE.TorusKnotGeometry(10, 3, 100, 16);
+const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
 const material = new THREE.MeshStandardMaterial({ color: 0xff6347 });
 const torusKnot = new THREE.Mesh(geometry, material);
 
 scene.add(torusKnot);
 
 // Lighting
-const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(0, 0, 0); 
+const pointLight = new THREE.PointLight(0xffffff, 100, 0);
+pointLight.position.set(0, 0, 0);
 
-const ambientLight = new THREE.AmbientLight(0xffffff);
-
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
 scene.add(pointLight, ambientLight);
 
 // Light + Grid helper
@@ -39,13 +38,35 @@ scene.add(lightHelper, gridHelper);
 // Orbit Controls
 const controls = new OrbitControls(camera, renderer.domElement);
 
+// randomly scatter stars
+function addStar() {
+  const geometry = new THREE.SphereGeometry(0.25, 24, 24);
+  const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
+  const star = new THREE.Mesh(geometry, material);
+
+  const [x, y, z] = Array(3).fill().map(() => THREE.MathUtils.randFloatSpread(100));   
+
+  star.position.set(x, y, z);
+  scene.add(star);
+}
+
+// call the addStar function 200 times
+Array(200).fill().forEach(addStar);
+
+// Background
+//const spaceTexture = new THREE.TextureLoader().load('space4.jpg');
+//scene.background = spaceTexture;
+
+
 // render the scene
 renderer.render(scene, camera); // Render after adding the sphere
 function animate() {
   requestAnimationFrame(animate);
-    torusKnot.rotation.x += 0.01;
-    torusKnot.rotation.y += 0.005;
-    torusKnot.rotation.z += 0.01;  
+    torusKnot.rotation.x += 0.02;
+    torusKnot.rotation.y += 0.0005;
+    torusKnot.rotation.z += 0.02;  
+
+    controls.update();
 
   renderer.render(scene, camera);
 }
