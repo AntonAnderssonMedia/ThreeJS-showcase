@@ -1,4 +1,4 @@
-1804
+1800
 120I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\metalnessmap_pars_fragment.glsl.js134049251254457772 0
 43I:\Programming\Three.JS-showcase\index.html134049301277838779 0
 74I:\Programming\Three.JS-showcase\node_modules\postcss\lib\stringifier.d.ts134049246451510442 0
@@ -19,7 +19,7 @@
 64I:\Programming\Three.JS-showcase\node_modules\.package-lock.json134049251258624437 0
 73I:\Programming\Three.JS-showcase\node_modules\three\src\loaders\Loader.js134049251253966813 0
 86I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\common\RenderList.js134049251255460594 0
-37I:\Programming\Three.JS-showcase\dist134049306688395585 1
+37I:\Programming\Three.JS-showcase\dist134049310875929644 1
 43I:\Programming\Three.JS-showcase\.gitignore134049245037870643 0
 54I:\Programming\Three.JS-showcase\node_modules\@napi-rs134049251258624437 1
 87I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\webxr\WebXRManager.js134049251257789609 0
@@ -37,7 +37,7 @@
 44I:\Programming\Three.JS-showcase\favicon.png134049256522184644 0
 77I:\Programming\Three.JS-showcase\node_modules\vite\dist\node\module-runner.js134049246452716615 0
 73I:\Programming\Three.JS-showcase\node_modules\lightningcss-win32-x64-msvc134049246450391082 1
-58I:\Programming\Three.JS-showcase\dist\favicon.ae4af75b.png134049306683109173 0
+58I:\Programming\Three.JS-showcase\dist\favicon.ae4af75b.png134049310875790155 0
 112I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\dithering_fragment.glsl.js134049251252619026 0
 69I:\Programming\Three.JS-showcase\node_modules\three\src\Three.Core.js134049251256455880 0
 87I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\physics\AmmoPhysics.js134049251251292219 0
@@ -80,8 +80,8 @@
 109I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\skinning_vertex.glsl.js134049251255958947 0
 50I:\Programming\Three.JS-showcase\node_modules\.bin134049246463662442 1
 92I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\utils\ShadowMapViewerGPU.js134049251255811177 0
-51I:\Programming\Three.JS-showcase\node_modules\.vite134049274978493035 1
-56I:\Programming\Three.JS-showcase\node_modules\.vite-temp134049302288869386 1
+51I:\Programming\Three.JS-showcase\node_modules\.vite134049274978694224 1
+56I:\Programming\Three.JS-showcase\node_modules\.vite-temp134049307512273536 1
 80I:\Programming\Three.JS-showcase\node_modules\three\src\nodes\utils\RemapNode.js134049251255460594 0
 90I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\common\RenderPipeline.js134049251255460594 0
 96I:\Programming\Three.JS-showcase\node_modules\three\src\nodes\accessors\RendererReferenceNode.js134049251255460594 0
@@ -691,7 +691,6 @@
 59I:\Programming\Three.JS-showcase\node_modules\.bin\vite.ps1134049246463662442 0
 61I:\Programming\Three.JS-showcase\node_modules\ansis\README.md134049246450350976 0
 119I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\gradientmap_pars_fragment.glsl.js134049251253291285 0
-62I:\Programming\Three.JS-showcase\dist\assets\index-BBaIW0uG.js134049302297749966 0
 85I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\STLLoader.js134049251256266637 0
 114I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\iridescence_fragment.glsl.js134049251253624693 0
 119I:\Programming\Three.JS-showcase\node_modules\three\src\renderers\shaders\ShaderChunk\iridescence_pars_fragment.glsl.js134049251253624693 0
@@ -1144,7 +1143,7 @@
 80I:\Programming\Three.JS-showcase\node_modules\three\src\loaders\TextureLoader.js134049251256452325 0
 89I:\Programming\Three.JS-showcase\node_modules\three\src\loaders\nodes\NodeObjectLoader.js134049251254647388 0
 78I:\Programming\Three.JS-showcase\node_modules\three\src\lights\AmbientLight.js134049251251204677 0
-68I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.7bdd3b2f.css134049306688109444 0
+68I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.7bdd3b2f.css134049310875790155 0
 82I:\Programming\Three.JS-showcase\node_modules\three\src\lights\DirectionalLight.js134049251252619026 0
 88I:\Programming\Three.JS-showcase\node_modules\three\src\lights\DirectionalLightShadow.js134049251252619026 0
 86I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\shaders\CopyShader.js134049251252290935 0
@@ -1206,7 +1205,6 @@
 79I:\Programming\Three.JS-showcase\node_modules\three\src\core\BufferAttribute.js134049251251810234 0
 94I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\controls\TrackballControls.js134049251256956042 0
 96I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\tsl\display\AnaglyphPassNode.js134049251251292219 0
-63I:\Programming\Three.JS-showcase\dist\assets\index-BVWZ68LB.css134049302297749966 0
 78I:\Programming\Three.JS-showcase\node_modules\rolldown\dist\filter-index.d.mts134049246451414384 0
 78I:\Programming\Three.JS-showcase\node_modules\three\src\core\BufferGeometry.js134049251251810234 0
 79I:\Programming\Three.JS-showcase\node_modules\three\src\core\EventDispatcher.js134049251253033997 0
@@ -1423,7 +1421,7 @@
 88I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\LUT3dlLoader.js134049251253966813 0
 85I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\LWOLoader.js134049251254118351 0
 86I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\NRRDLoader.js134049251254791780 0
-71I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.6c2bea7f.js.map134049306688375534 0
+71I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.6c2bea7f.js.map134049310875929644 0
 85I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\OBJLoader.js134049251254791780 0
 85I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\PDBLoader.js134049251254980450 0
 85I:\Programming\Three.JS-showcase\node_modules\three\examples\jsm\loaders\PLYLoader.js134049251255125549 0
@@ -1798,8 +1796,6 @@
 105I:\Programming\Three.JS-showcase\node_modules\.vite\deps\three_examples_jsm_controls_OrbitControls.js.map134049274978457068 0
 63I:\Programming\Three.JS-showcase\node_modules\.bin\rolldown.ps1134049246463662442 0
 59I:\Programming\Three.JS-showcase\node_modules\.bin\vite.cmd134049246463662442 0
-44I:\Programming\Three.JS-showcase\dist\assets134049302297749966 1
-48I:\Programming\Three.JS-showcase\dist\index.html134049306688109444 0
-67I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.6c2bea7f.js134049306688109444 0
-72I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.7bdd3b2f.css.map134049306688312050 0
-65I:\Programming\Three.JS-showcase\dist\assets\favicon-xPZvZ85s.png134049302297749966 0
+48I:\Programming\Three.JS-showcase\dist\index.html134049310875790155 0
+67I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.6c2bea7f.js134049310875790155 0
+72I:\Programming\Three.JS-showcase\dist\Three.JS-showcase.7bdd3b2f.css.map134049310875909588 0
